@@ -3,8 +3,74 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" href="js/layui/css/layui.css">
+		<link rel="stylesheet" href="css/headnav.css">
+		<script src="js/layui/layui.js"></script>
 	</head>
 	<body>
+		<!—
+		编写人：侯静怡
+		时间：2019年2月28日星期四
+		组成部分：index页面的顶部导航栏
+		-->
+		<ul class="layui-nav head-nav" lay-filter="">
+		  <li class="layui-nav-item">
+		  	<a href="javascript:;" class="head-a">文&nbsp;&nbsp;&nbsp;&nbsp;件</a>
+		    <dl class="layui-nav-child"> 
+		      <dd><a href="">新建</a></dd>
+		      <dd><a href="">打开</a></dd>
+		      <dd><a href="">保存</a></dd>
+		      <dd><a href="">另存为</a></dd>
+		      <dd><center><hr class="nav-hr"></center></dd>
+		      <dd><a href="">退出</a></dd>
+		    </dl>
+		  </li>
+		  <li class="layui-nav-item">
+		    <a href="javascript:;" class="head-a">编&nbsp;&nbsp;&nbsp;&nbsp;辑</a>
+		    <dl class="layui-nav-child"> 
+		      <dd><a href="">撤销</a></dd>
+		      <dd><a href="">重做</a></dd>
+		      <dd><center><hr class="nav-hr"></center></dd>
+		      <dd><a href="">剪切</a></dd>
+		      <dd><a href="">复制</a></dd>
+		      <dd><a href="">粘贴</a></dd>
+		      <dd><a href="">清空剪切板</a></dd>
+		    </dl>
+		  </li>
+		  <li class="layui-nav-item">
+		    <a href="javascript:;" class="head-a">视&nbsp;&nbsp;&nbsp;&nbsp;图</a>
+		    <dl class="layui-nav-child">
+		      <dd><a href="">工具栏</a></dd>
+		      <dd><a href="">颜色栏</a></dd>
+		      <dd><a href="">状态栏</a></dd>
+		    </dl>
+		  </li>
+		  <li class="layui-nav-item">
+		    <a href="javascript:;" class="head-a">图&nbsp;&nbsp;&nbsp;&nbsp;像</a>
+		    <dl class="layui-nav-child">
+		      <dd><a href="">旋转</a></dd>
+		      <dd><a href="">水平翻转</a></dd>
+		      <dd><a href="">垂直翻转</a></dd>
+		      <dd><a href="">反相</a></dd>
+		      <dd><a href="">画布设置</a></dd>
+		      <dd><a href="">清空画布</a></dd>
+		    </dl>
+		  </li>
+		  <li class="layui-nav-item">
+		    <a href="javascript:;" class="head-a head-a-last">关&nbsp;&nbsp;&nbsp;&nbsp;于</a>
+		    <dl class="layui-nav-child">
+		      <dd><a href="">小组成员</a></dd>
+		      <dd><a href="">使用语言</a></dd>
+		    </dl>
+		  </li>
+		</ul>
+		 
+		<script>
+		layui.use('element', function(){
+		  var element = layui.element;
+		  
+		});
+		</script>
 		
 	</body>
 </html>

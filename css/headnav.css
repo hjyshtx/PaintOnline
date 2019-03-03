@@ -1,0 +1,31 @@
+.nav-hr {
+	width: 85%;
+}
+
+.head-nav {
+	min-width: 1226px;
+	height: 60px;
+}
+
+body .head-nav .layui-nav-more {
+	display: none;
+}
+
+.head-nav .layui-nav-item {
+	height: 45px;
+	line-height: 40px;
+	top: 16px;
+}
+
+.head-a {
+	border-right: 1px #555555 solid;
+	height: 33px;
+}
+
+.head-a-last {
+	border-right: 0px;
+}
+
+.head-nav .layui-nav-child {
+	top: 50px;
+}
